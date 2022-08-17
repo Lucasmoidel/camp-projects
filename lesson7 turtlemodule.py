@@ -1,0 +1,13 @@
+import turtle
+T = turtle.Turtle()
+screen = T.getscreen()
+screen.bgpic("goal.gif")
+T.shape("turtle")
+T.speed(1)
+T.right(30)
+T.forward(100)
+T.left(30)
+T.forward(100)
+T.left(30)
+T.forward(100)
+turtle.done()

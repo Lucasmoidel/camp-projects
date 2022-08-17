@@ -1,0 +1,15 @@
+import turtle
+T = turtle.Turtle()
+T.speed(0)
+T.color("blue")
+T.penup()
+T.goto(100,50)
+T.pendown()
+T.begin_fill()
+for i in range(400):
+    T.forward(10)
+    T.right(10)
+    T.end_fill()
+T.end_fill()
+T.hideturtle()
+turtle.done()
