@@ -1,0 +1,7 @@
+def printStory(nounList, verbList, adjectiveList):
+    print("There once was a", adjectiveList[0], nounList[0], "named Leo")
+    print("He needed to save the world with his " + nounList[1] + ".")
+    print("Leo's mortal enemy the", adjectiveList[1], nounList[2], "needed to be stopped")
+    print("The enemy tried to", verbList[0], "Leo but it was not very effective")
+    print("Then Leo decided to", verbList[1], ": the ultimate move only a few dare to do")
+    print("With that move the world was saved.")
